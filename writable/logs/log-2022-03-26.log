@@ -223,3 +223,151 @@ CRITICAL - 2022-03-26 00:42:06 --> syntax error, unexpected variable "$Usuario"
 #5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 {main}
+CRITICAL - 2022-03-26 12:12:15 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\login-prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\login-prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 12:13:02 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\login-prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\login-prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 12:13:14 --> syntax error, unexpected token "{", expecting "function" or "const"
+#0 C:\xampp\htdocs\login-prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\login-prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 12:13:15 --> syntax error, unexpected token "{", expecting "function" or "const"
+#0 C:\xampp\htdocs\login-prueba\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\login-prueba\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 12:38:01 --> Class "App\Models\User" not found
+#0 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#1 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#2 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 12:38:26 --> Class "App\Models\User" not found
+#0 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#1 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#2 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-26 12:40:22 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-03-26 12:40:22 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\login-prueba\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\login-prueba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\login-prueba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\login-prueba\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\login-prueba\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\login-prueba\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#8 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#9 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-26 12:40:49 --> syntax error, unexpected token ":"
+#0 C:\xampp\htdocs\login-prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\login-prueba\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(13): view('users', Array)
+#3 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 12:41:06 --> syntax error, unexpected token ":"
+#0 C:\xampp\htdocs\login-prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\login-prueba\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(13): view('users', Array)
+#3 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 16:54:51 --> Call to a member function orderBy() on array
+#0 C:\xampp\htdocs\login-prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\login-prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\login-prueba\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#3 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(13): view('users', Array)
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 16:58:10 --> Array to string conversion
+#0 C:\xampp\htdocs\login-prueba\app\Views\users.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\login-prueba\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\login-prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\login-prueba\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#4 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(13): view('users', Array)
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#6 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#7 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 20:05:58 --> Call to a member function orderBy() on array
+#0 C:\xampp\htdocs\login-prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\login-prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\login-prueba\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#3 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(13): view('users', Array)
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 20:06:50 --> syntax error, unexpected token "protected", expecting end of file
+#0 C:\xampp\htdocs\login-prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\login-prueba\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(13): view('users', Array)
+#3 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 20:10:40 --> Call to a member function orderBy() on array
+#0 C:\xampp\htdocs\login-prueba\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\login-prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\login-prueba\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#3 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(13): view('users', Array)
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 20:10:56 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\login-prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\login-prueba\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(13): view('users', Array)
+#3 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 20:11:07 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\login-prueba\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\login-prueba\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\login-prueba\app\Controllers\users.php(13): view('users', Array)
+#3 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(832): App\Controllers\users->index()
+#4 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#5 C:\xampp\htdocs\login-prueba\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\login-prueba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
